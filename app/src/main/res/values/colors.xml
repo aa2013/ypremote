@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 亮色窗口底色 = token bg（Theme.kt LightYp.bg） -->
+<!-- Light window bg = token bg (LightYp.bg in Theme.kt) -->
+<resources>
+    <color name="yp_window_bg">#F0F2F5</color>
+</resources>

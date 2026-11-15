@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 暗色窗口底色 = token bg（Theme.kt DarkYp.bg） -->
+<!-- Dark window bg = token bg (DarkYp.bg in Theme.kt) -->
+<resources>
+    <color name="yp_window_bg">#0C0E11</color>
+</resources>

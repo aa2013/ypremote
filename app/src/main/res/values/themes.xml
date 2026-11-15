@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompatActivity 要求 AppCompat 系主题；DayNight 只影响窗口底色，实际配色走 Compose token -->
+    <!-- AppCompatActivity requires an AppCompat descendant; real colors come from Compose tokens -->
+    <style name="Theme.YpRemote" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- 窗口底色对齐应用 bg：切语言/主题导致 Activity 重建时不闪系统白底 -->
+        <!-- Window bg matches app bg so locale/theme recreation doesn't flash white -->
+        <item name="android:windowBackground">@color/yp_window_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

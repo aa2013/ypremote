@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认英文；中文在 values-zh/strings.xml -->
+<!-- Default English; Chinese lives in values-zh/strings.xml -->
+<resources>
+    <string name="app_name">Treadmill Remote</string>
+
+    <!-- 权限门 Permission gate -->
+    <string name="permission_title">YpRemote Remote</string>
+    <string name="permission_body">Nearby-device permission is needed to scan and connect the treadmill.</string>
+    <string name="permission_grant">Grant permission</string>
+
+    <!-- 连接页 Connect -->
+    <string name="connect_title">Treadmill Remote</string>
+    <string name="settings">Settings</string>
+    <string name="status_disconnected">Not connected</string>
+    <string name="status_scanning">Scanning…</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected_fmt">Connected to %1$s</string>
+    <string name="hint_ready">Tap “Open remote” to control the treadmill.</string>
+    <string name="hint_disconnected">Start a scan, then tap a device to connect.</string>
+    <string name="scan_devices">Scan treadmills</string>
+    <string name="stop_scan">Stop scanning</string>
+    <string name="scan_by_service">By service</string>
+    <string name="scan_by_brand">By brand name</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="open_remote">Open remote</string>
+    <string name="nearby_devices">Nearby devices</string>
+    <string name="connect">Connect</string>
+    <string name="device_connected">Connected</string>
+    <string name="device_unknown">Unknown device</string>
+    <string name="no_devices">No devices found — try “By service”.</string>
+
+    <!-- 遥控页 Remote -->
+    <string name="remote_title">Remote</string>
+    <string name="back">Back</string>
+    <string name="bluetooth_status">Bluetooth status</string>
+    <string name="stat_time">Time</string>
+    <string name="stat_kcal">kcal</string>
+    <string name="stat_pace">Pace</string>
+    <string name="stat_distance">Distance</string>
+    <string name="speed_label">Speed</string>
+    <string name="slope_label">Slope</string>
+    <string name="lock_action">Lock</string>
+    <string name="action_start">Start</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_pausing">Pausing…</string>
+    <string name="action_stop">Stop</string>
+    <string name="placeholder_dash">—</string>
+    <string name="waking">Waking…</string>
+    <string name="sleep_toast">Device asleep — wake it on the treadmill panel, then tap Start.</string>
+    <string name="max_speed_toast">Already at the device\'s max speed</string>
+    <string name="min_speed_toast">Already at the device\'s min speed</string>
+    <string name="exit_dialog_title">Treadmill is running</string>
+    <string name="exit_dialog_body">Stop the treadmill and exit the remote?</string>
+    <string name="exit_confirm">Stop &amp; exit</string>
+    <string name="exit_dismiss">Keep running</string>
+
+    <!-- 记录 History -->
+    <string name="history_title">History</string>
+    <string name="history_clear">Clear all</string>
+    <string name="history_clear_title">Clear all records?</string>
+    <string name="history_clear_body">All workout records will be deleted. This can\'t be undone.</string>
+    <string name="history_empty">No workouts yet</string>
+    <string name="record_max_speed">Top speed</string>
+    <string name="record_delete_title">Delete this record?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- 设置 Settings -->
+    <string name="appearance">Appearance</string>
+    <string name="theme_mode">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="general">General</string>
+    <string name="debug_entry">Developer debug</string>
+    <string name="debug_entry_desc">Protocol tests and raw logs</string>
+    <string name="about">About</string>
+    <string name="version_fmt">Version %1$s</string>
+
+    <!-- 调试 Debug -->
+    <string name="debug_title">Debug</string>
+    <string name="debug_state">State</string>
+    <string name="debug_conn_state">Connection</string>
+    <string name="debug_wake_state">Wake flow</string>
+    <string name="debug_parsed">Parsed data</string>
+    <string name="debug_raw_notify">Notify hex</string>
+    <string name="debug_last_op">Last op</string>
+    <string name="debug_tests">Protocol tests (after connect)</string>
+    <string name="test_esl_handshake">ESL handshake</string>
+    <string name="test_esl_start">ESL start</string>
+    <string name="test_esl_speed">ESL speed 4</string>
+    <string name="test_esl_stop">ESL stop</string>
+    <string name="test_subscribe_fff1">Subscribe FFF1</string>
+    <string name="test_read_model">Model</string>
+    <string name="test_read_fw">Firmware</string>
+    <string name="test_ftms_unlock">FTMS unlock</string>
+    <string name="test_ftms_start">FTMS start</string>
+</resources>
